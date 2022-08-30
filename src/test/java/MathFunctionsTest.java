@@ -21,6 +21,6 @@ class MathFunctionsTest {
 
     @Test
     void divideBySelf() {
-        assertEquals(2, mathFunctions.divideBySelf(6));
+        assertEquals(1, mathFunctions.divideBySelf(6));
     }
 }
