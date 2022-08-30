@@ -18,4 +18,9 @@ class MathFunctionsTest {
         assertEquals(10, mathFunctions.addition(5,5));
         assertNotEquals(9, mathFunctions.addition(5,5));
     }
+
+    @Test
+    void divideBySelf() {
+        assertEquals(1, mathFunctions.divideBySelf(6));
+    }
 }
