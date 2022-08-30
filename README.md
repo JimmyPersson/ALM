@@ -1,4 +1,4 @@
-** # ALM - Application Lifecycle Management.**
+# **ALM - Application Lifecycle Management.**
 
 This is a list of rules for the workflow and usage of this repository, please read these rules carefully to avoid unnecessary conflicts.
 
