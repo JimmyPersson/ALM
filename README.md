@@ -1,6 +1,6 @@
 **# ALM - Application Lifecycle Management.**
 
-This is a list of rules for the workflow and usage of this repository, please read these rules carefully to avoid unneccesary conflicts.
+This is a list of rules for the workflow and usage of this repository, please read these rules carefully to avoid unnecessary conflicts.
 
 
 - It is important that you always start a separate branch when developing or when you are working on a new feature. **Never** change any code in the main branch.
