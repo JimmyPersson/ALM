@@ -7,4 +7,6 @@ public class MathFunctions {
     public int addition(int x, int y){
         return x + y;
     }
+
+    public double divideBySelf(double x) {return x / x;}
 }
