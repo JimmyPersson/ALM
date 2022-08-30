@@ -3,11 +3,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(test("Fish"));
-    }
-
-    public static String test(String fish){
-
-        return fish;
+        Duplication formulas = new Duplication();
+        System.out.println(formulas.duplicate(2));
+        System.out.println(formulas.addition(50, 34));
     }
 }
