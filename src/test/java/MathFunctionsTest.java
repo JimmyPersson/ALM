@@ -2,20 +2,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DuplicationTest {
+class MathFunctionsTest {
 
-    Duplication duplication = new Duplication();
+    MathFunctions mathFunctions = new MathFunctions();
 
     @Test
     void duplicationMath(){
-        assertEquals(4, duplication.duplicate(2));
-        assertNotEquals(3, duplication.duplicate(2));
+        assertEquals(4, mathFunctions.duplicate(2));
+        assertNotEquals(3, mathFunctions.duplicate(2));
 
     }
 
     @Test
     void addition() {
-        assertEquals(10, duplication.addition(5,5));
-        assertNotEquals(9, duplication.addition(5,5));
+        assertEquals(10, mathFunctions.addition(5,5));
+        assertNotEquals(9, mathFunctions.addition(5,5));
     }
 }

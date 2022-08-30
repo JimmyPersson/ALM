@@ -1,4 +1,4 @@
-public class Duplication {
+public class MathFunctions {
 
     public int duplicate(int number){
         return number * 2;
