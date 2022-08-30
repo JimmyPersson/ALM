@@ -1,0 +1,15 @@
+name: CI workflow
+
+# Controls when the workflow will run
+on:
+  pull_request:
+    types: [opened]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh pr comment $PR_URL --body "Thank you for using pull request!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+
