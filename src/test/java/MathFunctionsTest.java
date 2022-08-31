@@ -23,4 +23,9 @@ class MathFunctionsTest {
     void divideBySelf() {
         assertEquals(1, mathFunctions.divideBySelf(6));
     }
+
+    @Test
+    void areaOfSquare() {
+        assertEquals(6, mathFunctions.areaOfSquare(3, 2));
+    }
 }

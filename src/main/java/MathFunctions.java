@@ -9,4 +9,8 @@ public class MathFunctions {
     }
 
     public double divideBySelf(double x) {return x / x;}
+
+    public int areaOfSquare(int length, int width) {
+        return length * width;
+    }
 }
