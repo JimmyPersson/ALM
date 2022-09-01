@@ -11,6 +11,7 @@ public class MathFunctions {
     public double divideBySelf(double x) {return x / x;}
 
     public int areaOfSquare(int length, int width) {
+        System.out.println("Thing");
         return length * width;
     }
 }
