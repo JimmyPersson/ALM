@@ -13,4 +13,5 @@ public class MathFunctions {
     public int areaOfSquare(int length, int width) {
         return length * width;
     }
+    //Hej
 }
