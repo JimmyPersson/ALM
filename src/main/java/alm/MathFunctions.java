@@ -1,3 +1,5 @@
+package alm;
+
 public class MathFunctions {
 
     public int duplicate(int number){
